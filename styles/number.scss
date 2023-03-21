@@ -1,0 +1,28 @@
+.number{
+    width: 240px;
+    margin: 0 auto;
+    padding: 20px 0;
+    .number_content {
+        width: 100%;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        .wrap{
+            width: 40px;
+            height: 27px;
+            padding-top: 13px;
+            background-color: #0d0d0d;
+            text-align: center;
+            border-radius: 5px;
+            transition: .4s;
+            cursor: pointer;
+            &:hover{
+                scale: 1.07;
+                background-color: #104BE3;
+            }
+        }
+        .active{
+            background-color: #104BE3;
+        }
+    }
+}

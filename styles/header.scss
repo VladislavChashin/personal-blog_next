@@ -1,0 +1,152 @@
+.header_wrap{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: #FFFFFF;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 13px;
+        text-transform: uppercase;
+        padding: 14px 10px 12px;
+        cursor: pointer;
+        transition: .2s;
+        &:hover{
+            background-color: #202020;
+        }
+        
+    }
+    .desktop_nav{
+        flex-grow: 2;
+        padding: 0 30px 0 0;
+        ul{
+            display: flex;
+            li{
+                text-align: right;
+                flex-grow: 1;
+                &:nth-child(5){
+                    flex-grow: 4;
+                }
+            }
+            
+        }
+        
+        @media (max-width: 850px) {
+            display: none;
+        }
+    }
+    input{
+        flex-grow: 1;
+        background: #202020;
+        box-shadow: -7px 1px 10px rgba(0, 0, 0, 0.3);
+        color: #FFFFFF;
+        border: 0;
+        height: 100%;
+    }
+
+    .mobile{
+        display: none;
+        @media (max-width: 850px) {
+            display: block;
+        }
+        .prew{
+            margin: 3px 54px 3px 15px;
+            cursor: pointer;
+            span{
+                width: 30px;
+                height: 2px;
+                margin: 7px;
+                display: block;
+                background-color: #FFFFFF;
+            }
+        }
+        .active{
+            display: block;
+        }
+        .nav_container {
+            max-width: 300px;
+            display: none;
+            position: absolute;
+            z-index: 100;
+            background: #0D0D0D;
+box-shadow: 9px 0px 15px rgba(0, 0, 0, 0.3), inset -10px 0px 5px rgba(5, 5, 5, 0.35);
+            .content{
+                .image{
+                    overflow: hidden;
+                    max-height: 100px;
+                    img{
+                        transform: translateY(-30px);
+                    }
+                }
+                .info{
+                    display: flex;
+                    width: 100%;
+                    justify-content: space-between;
+                    border-bottom: 1px solid #1C1C1C;
+                    padding-bottom: 16px;
+                    .avatar{
+                        position: relative;
+                        width: 1px;
+                        img{
+                            position: absolute;
+                            max-width: 65px;
+                            max-height: 65px;
+                            bottom: 3px;
+                            left: -1px;
+                        }
+                    }
+                    .initial{
+                        text-align: left;
+                        padding-top: 10px;
+                        h4{
+                            font-family: 'Roboto';
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 18px;
+                        }
+                        p{
+                            font-family: 'Roboto';
+                            font-weight: 300;
+                            font-size: 12px;
+                            line-height: 14px;
+                            color: #DEDEDE;
+                            
+                        }
+                    }
+                }
+                
+                .mobile_nav{
+                    padding: 30px 0 15px 0;
+                    width: 100%;
+                    ul{
+                        padding-bottom: 55px;
+                        height: 160px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        li{
+                            a{
+                                font-family: 'Roboto';
+                                font-weight: 300;
+                                font-size: 16px;
+                                line-height: 19px;
+                            }
+                        }
+                    }
+                    .buttons{
+                        width: 100%;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+        .active{
+            display: block;
+        }
+
+    }
+}
+
+
