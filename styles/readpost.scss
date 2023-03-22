@@ -1,0 +1,100 @@
+.postRead{
+    max-width: 750px;
+    margin: 0 auto;
+    .postRead_wrap{
+        width: 85%;
+        padding: 25px;
+        .topSide{
+            display: flex;
+            justify-content: space-between;
+            a{
+                text-decoration: none;
+                font-family: 'Roboto';
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 14px;
+                color: #FFFFFF;
+                opacity: 0.6;
+                display: flex;
+                align-items: center;
+                img{
+                    padding-left: 5px;
+                }
+            }
+        }
+        .read{
+            padding: 15px 0 38px;
+            .read_article{
+                h1{
+                    font-family: 'Roboto';
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 21px;
+                }
+                p{
+                    font-family: 'Lato';
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 14px;
+                    color: #828282;
+                }
+            }
+            .text_wrap{
+                padding: 30px 0 23px;
+                p{
+                    font-family: 'Roboto';
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                }
+            }
+            .image{
+                display: flex;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+        }
+        .intersting_read{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            p{
+                font-family: 'Roboto';
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                padding: 0 0 20px;
+            }
+            .content{
+                display: grid;
+                grid-template-columns: 50% 50%;
+                grid-template-rows: 50% 50%;
+                padding: 0;
+                @media (max-width: 950px){
+                    grid-template-columns: 100%;
+                    grid-template-rows: 25% 25% 25% 25%;
+                }
+                .intrerest{
+                    h3{
+                        font-family: 'Roboto';
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 16px; 
+                        color: #F3EBA2;       
+                    }
+                    p{
+                        font-family: 'Lato';
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 14px;
+                        color: #828282;
+                    }
+                }
+            }
+            
+        }
+    }
+}

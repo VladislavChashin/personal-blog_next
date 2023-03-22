@@ -26,7 +26,7 @@ export function Sidebar(){
                     в создании сайтов различной сложности.</p>
             </div>
             <div className="buttons">
-                <button>Мои работы</button>
+                <button onClick={() => location.href='/my_work'}>Мои работы</button>
                 <button>Написать мне</button>
             </div>
         </div>

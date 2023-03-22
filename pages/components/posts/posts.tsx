@@ -15,7 +15,7 @@ export function Posts(){
                 <div className="description_bottom">
                     <p>21.06.2020</p>
                     <p>создание сайтов</p>
-                    <a href="">читать</a>
+                    <a href="/post_one">читать</a>
                 </div>
             </div>
         </div>
