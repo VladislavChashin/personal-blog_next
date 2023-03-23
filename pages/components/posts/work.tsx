@@ -1,9 +1,11 @@
+import Image from 'next/dist/client/image'
+
 export function Work(){
     return(
         <>
         <div className="myWork">
             <div className="myWork_images">
-                <img src="/posts/img/nout.jpg" alt="" />
+                <Image src="/posts/img/nout.jpg" width='310' height='552' alt="" />
             </div>
             <div className="myWork_text">
                 <h2>altermono.com</h2>
