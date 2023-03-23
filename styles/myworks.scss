@@ -10,9 +10,14 @@
         max-width: 320px;
     }
     .myWork_images{
+        @media (max-width:930px){
+            overflow: hidden;
+            width: 300%;
+        }
         @media (max-width:660px){
             position: relative;
             width: 0px;
+            overflow: visible;
         }
         @media (max-width:340px){
             display: none;

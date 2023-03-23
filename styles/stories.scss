@@ -1,10 +1,17 @@
 .stories{
     width: 100%;
     padding-top: 60px;
+    @media (max-width: 434px){
+        overflow: hidden;
+        max-width: 320px;
+        margin: 0 auto;
+        filter: drop-shadow(1px 5px 10px rgba(0, 0, 0, 0.507));
+    }
     .stories_content{
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         width: 100%;
+        transition: transform .5s;
         .stories_post{
             max-width: 140px;
             padding: 0 3px 0 ;
@@ -24,13 +31,14 @@
             }
             p{
                 font-family: 'Lato';
+                max-width: 112px;
                 font-weight: 400;
                 font-size: 12px;
                 line-height: 14px;
                 color: #FFFFFF;
                 position: absolute;
                 top: 165px;
-                left: 50px;
+                left: 70px;
                 &:nth-child(1){
                     position: absolute;
                     left: 13px;
