@@ -1,6 +1,6 @@
 import Image from 'next/dist/client/image'
 import Link from 'next/link'
-export function MobileNav(){
+export default function MobileNav(){
     return(
         <div className="content">
             <div className="image">

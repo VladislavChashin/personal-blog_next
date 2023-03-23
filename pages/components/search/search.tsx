@@ -1,7 +1,7 @@
 import Image from 'next/dist/client/image'
 
 
-export function Search(){
+export default function Search(){
     return(
         <div className="search">
             <div className="search_content">

@@ -2,7 +2,7 @@ import { useSelector, useDispatch} from 'react-redux'
 import { decrement } from './slice'
 import type { RootState } from '../../store'
 
-export function Store_Window(){
+export default function Store_Window(){
     const count = useSelector((state: RootState) => state.value)
     const dispatch = useDispatch()
 

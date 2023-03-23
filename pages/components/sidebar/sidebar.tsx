@@ -1,7 +1,7 @@
 import Image from 'next/dist/client/image'
 
 
-export function Sidebar(){
+export default function Sidebar(){
     return(
         <div className="content">
             <div className="image">

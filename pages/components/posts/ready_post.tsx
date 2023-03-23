@@ -1,7 +1,7 @@
 import Image from 'next/dist/client/image'
 import Link from 'next/link'
 
-export function PostRead(){
+export default function PostRead(){
     return(
         <>
         <div className="postRead">

@@ -2,7 +2,7 @@ import Image from 'next/dist/client/image'
 import Link from 'next/link'
 
 
-export function Posts(props:any){
+export default function Posts(props:any){
     return(
         <div className="post">
             <div className="post_content">

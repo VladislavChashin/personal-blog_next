@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export function Numberse(){
+export default function Numberse(){
     const [count, setCount] = useState(1)
 
     return(

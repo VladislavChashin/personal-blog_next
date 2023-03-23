@@ -1,6 +1,6 @@
-import { Header } from "./components/header/header";
-import { Work } from "./components/posts/work";
-import { Sidebar } from "./components/sidebar/sidebar";
+import  Header  from "./components/header/header";
+import  Work  from "./components/posts/work";
+import  Sidebar  from "./components/sidebar/sidebar";
 
 export default function MyWork() {
     return (

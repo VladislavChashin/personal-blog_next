@@ -1,6 +1,6 @@
-import { Header } from "./components/header/header";
-import { PostRead } from "./components/posts/ready_post";
-import { Sidebar } from "./components/sidebar/sidebar";
+import  Header  from "./components/header/header";
+import  PostRead from "./components/posts/ready_post";
+import  Sidebar  from "./components/sidebar/sidebar";
 
 export default function PostOne() {
     return (

@@ -1,6 +1,6 @@
 import Image from 'next/dist/client/image'
 
-export function Work(){
+export default function Work(){
     return(
         <>
         <div className="myWork">

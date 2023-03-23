@@ -5,7 +5,7 @@ import {useSwipeable} from 'react-swipeable'
 import { useState } from 'react'
 import { transform } from 'typescript'
 
-export function Stories(){
+export default function Stories(){
     const dispatch = useDispatch()
     const [activeStries, setActiveStories] = useState(0)
 

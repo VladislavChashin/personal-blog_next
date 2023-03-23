@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import { useState } from 'react'
-import { MobileNav } from './mobile-nav'
+import  MobileNav  from './mobile-nav'
 
-export function Header(){
+export default function Header(){
     const [state, setState] = useState(false)
 
     return(
