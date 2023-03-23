@@ -10,7 +10,7 @@ import '@/styles/myworks.scss'
 import '@/styles/fonts/lato/stylesheet.css'
 import '@/styles/fonts/roboto/stylesheet.css'
 import '@/styles/reset.css'
-import { store } from './store'
+import store  from './store'
 import { Provider } from 'react-redux'
 
 import type { AppProps } from 'next/app'
