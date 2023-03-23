@@ -1,5 +1,5 @@
 import { useSelector, useDispatch} from 'react-redux'
-import { decrement } from './slice'
+import { decrement } from '../../../slice'
 import type {RootState} from '../../../store'
 
 export default function Store_Window(){

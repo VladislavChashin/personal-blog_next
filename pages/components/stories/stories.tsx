@@ -1,6 +1,6 @@
 import Image from 'next/dist/client/image'
 import { useDispatch } from 'react-redux'
-import { increment } from './slice'
+import { increment } from '../../../slice'
 import {useSwipeable} from 'react-swipeable'
 import { useState } from 'react'
 import { transform } from 'typescript'
