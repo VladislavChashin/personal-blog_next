@@ -1,6 +1,6 @@
 import { useSelector, useDispatch} from 'react-redux'
 import { decrement } from './slice'
-import type { RootState } from '../../store'
+import type RootState from '../../store'
 
 export default function Store_Window(){
     const count = useSelector((state: RootState) => state.value)
