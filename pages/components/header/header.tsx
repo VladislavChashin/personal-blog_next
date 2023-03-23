@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { useState } from 'react'
 import { MobileNav } from './mobile-nav'
 
@@ -8,11 +9,12 @@ export function Header(){
         <div className="header_wrap">
             <nav className="desktop_nav">
                 <ul>
-                    <li><a href="/">Главная</a></li>
-                    <li><a href="">Статьи</a></li>
-                    <li><a href="">Обо мне</a></li>
-                    <li><a href="">Реклама</a></li>
-                    <li><a href="">Профиль</a></li>
+                    <li><Link href={'/'}>Главная</Link></li>
+                    <li><Link href={''}>Статьи</Link></li>
+                    <li><Link href={''}>Обо мне</Link></li>
+                    <li><Link href={''}>Реклама</Link></li>
+                    <li><Link href={''}>Профиль</Link></li>
+                    
                 </ul>
             </nav>
             <div className="mobile">

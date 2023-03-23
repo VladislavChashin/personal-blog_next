@@ -1,4 +1,5 @@
 import Image from 'next/dist/client/image'
+import Link from 'next/link'
 
 
 export function Posts(props:any){
@@ -15,7 +16,7 @@ export function Posts(props:any){
                 <div className="description_bottom">
                     <p>{props.date}</p>
                     <p>создание сайтов</p>
-                    <a href="/post_one">читать</a>
+                    <Link href={'/post_one'}>читать</Link>
                 </div>
             </div>
         </div>

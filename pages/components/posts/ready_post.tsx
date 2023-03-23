@@ -1,4 +1,5 @@
 import Image from 'next/dist/client/image'
+import Link from 'next/link'
 
 export function PostRead(){
     return(
@@ -6,7 +7,7 @@ export function PostRead(){
         <div className="postRead">
             <div className="postRead_wrap">
                 <div className="topSide">
-                    <a href="/">вернуться назад</a><a href="">Поделиться<Image src='/posts/img/share.svg' width={19} height={20} alt="" /></a>
+                <Link href={'/'}>Вернуться назад</Link><Link href={''}>поделиться<Image src='/posts/img/share.svg' width={19} height={20} alt="" /></Link>
                 </div>
                 <div className="read">
                     <div className="read_article">

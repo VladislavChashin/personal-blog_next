@@ -1,4 +1,5 @@
 import Image from 'next/dist/client/image'
+import Link from 'next/link'
 export function MobileNav(){
     return(
         <div className="content">
@@ -17,13 +18,13 @@ export function MobileNav(){
            
             <nav className="mobile_nav">
                 <ul>
-                    <li><a href="">Статьи</a></li>
-                    <li><a href="">Обо мне</a></li>
-                    <li><a href="">Реклама</a></li>
-                    <li><a href="">Профиль</a></li>
+                    <li><Link href={'/'}>Статьи</Link></li>
+                    <li><Link href={''}>Обо мне</Link></li>
+                    <li><Link href={''}>Реклама</Link></li>
+                    <li><Link href={''}>Профиль</Link></li>
                 </ul>
                 <div className="buttons">
-                    <button>Мои работы</button>
+                    <button onClick={() => location.href='/my_work'}>Мои работы</button>
                     <button>Написать мне</button>
                 </div>
             </nav>
